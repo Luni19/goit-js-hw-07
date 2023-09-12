@@ -41,9 +41,4 @@ function handleClick(event) {
   `);
   instance.show();
 
-  galleryList.addEventListener("keydown", (event) => {
-    if (event.code === "Escape") {
-      instance.close();
-    }
-  });
 }
